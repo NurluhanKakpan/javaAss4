@@ -79,5 +79,17 @@ public class MyHashTable<K, V> {
         }
         return null;
     }
+    public boolean contains(V value) {
+        for (HashNode<K, V> node: chainArray) {
+            while (node!=null) {
+                if (node.value.equals(value)) {
+                    return true;
+                }
+                node=node.next;
+            }
+        }
+        return false;
+    }
+
 
 }
