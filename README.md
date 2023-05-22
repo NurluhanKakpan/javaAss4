@@ -36,12 +36,13 @@ The HashTable class supports generic types for both keys and values, allowing yo
 Time Complexity
 The average time complexity of the HashTable operations is as follows:
 
-put(): O(1)
-get(): O(1)
-remove(): O(1)
-containsKey(): O(1)
-getKeys(): O(n)
-isEmpty(): O(1)
+      put(): O(1)
+      get(): O(1)
+      remove(): O(1)
+      containsKey(): O(1)
+      getKeys(): O(n)
+      isEmpty(): O(1)
+      
 Contributing
 If you'd like to contribute to the development of this HashTable implementation, please follow these guidelines:
 
@@ -51,6 +52,7 @@ Make your modifications and additions.
 Write tests to ensure the correctness of your code.
 Commit your changes and push them to your fork.
 Submit a pull request detailing your changes and their benefits.
+
 License
 This project is licensed under the MIT License. Feel free to use, modify, and distribute this code for personal and commercial purposes.
 
